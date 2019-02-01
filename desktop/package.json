@@ -1,8 +1,8 @@
 {
-    "title": "1 Col Portfolio",
-    "name": "startbootstrap-1-col-portfolio",
+    "title": "Modern Business",
+    "name": "startbootstrap-modern-business",
     "version": "4.1.1",
-    "description": "A one column portfolio HTML template built with Bootstrap",
+    "description": "A multipurpose HTML website template built with Bootstrap",
     "keywords": [
         "css",
         "sass",
@@ -11,9 +11,9 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/1-col-portfolio",
+    "homepage": "https://startbootstrap.com/template-overviews/modern-business",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/issues",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-modern-business/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
@@ -23,10 +23,11 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio.git"
+        "url": "https://github.com/BlackrockDigital/startbootstrap-modern-business.git"
     },
     "dependencies": {
         "bootstrap": "4.1.1",
+        "font-awesome": "^4.7.0",
         "jquery": "3.3.1"
     },
     "devDependencies": {
