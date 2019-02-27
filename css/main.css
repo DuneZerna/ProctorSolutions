@@ -1,0 +1,113 @@
+<link rel="stylesheet"href="https://use.typekit.net/zbh0dqu.css" >
+
+/* LOGO START */
+.logo-main {
+    position: relative;
+    display: inline-block;
+}
+
+.logo-main .logo-blur {
+    display: none;
+    position: absolute;
+    top: 14px;
+    left: 16px;
+    z-index: 99;
+}
+
+.logo-main:hover .logo-blur {
+    display: inline;
+}
+
+/* LOGO SLUT */
+
+/* BODY START */
+body {
+    background-color: rgba(154, 249, 255, 0.15);
+}
+
+/* NAVBAR START */
+.navbar-main {
+    background-color: rgba(129, 198, 232, 1);
+}
+
+.navbar-list-main {
+    font-family: obvia, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* NAVBAR SLUT */
+
+/* OVERSKRIFT START */
+h1 {
+    padding: 10% 0 5% 0;
+
+    font-family: obvia, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.slogan-main {
+    font-size: 22px;
+    font-family: obvia, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 26px;
+    font-family: obvia, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 26px;
+    font-family: obvia, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+p {
+    font-size: 16px;
+    font-family: study, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* OVERSKRIFT SLUT */
+
+/* SE MERE BUTTONS START */
+.button-main {
+    background-color: rgba(129, 198, 232, 1);
+    color: white;
+    font-size: 18px;
+    font-family: obvia, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 2% 2% 2% 40%;
+}
+
+.button-main:hover {
+    background-color: rgba(129, 198, 232, 0.5);
+    color: #aaa;
+    font-size: 18px;
+    font-family: obvia, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* SE MERE BUTTONS SLUT */
+
+/* FOOTER START */
+footer {
+    background-color: rgba(129, 198, 232, 1);
+}
+
+/* FOOTER SLUT */
+
+form {
+    font-family: study, serif;
+    font-size: 18px;
+    padding-top: 4%;
+}

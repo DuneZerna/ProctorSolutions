@@ -15,15 +15,23 @@
 
     <!-- Custom styles for this template -->
     <link href="css/1-col-portfolio.css" rel="stylesheet">
-
+    <link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-main">
         <div class="container">
-            <a class="navbar-brand" href="#">Logo/Brand</a>
+            <a class="navbar-brand" href="#">
+                <!-- LOGO START -->
+                <div class="logo-main">
+                    <img src="img/ProctorSolutions%20Logo.png" height="55" width="98" alt="Logo">
+                    <img src="img/PS-Logo-hover.png" height="55" width="98" class="logo-blur" alt="Logo-hover">
+                </div>
+
+                <!-- LOGO START -->
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -85,7 +93,7 @@
                     <label for="subject">Spørgsmål</label>
                     <textarea id="subject" name="subject" placeholder="Skriv dit spørgsmål her.." style="height:200px" required></textarea>
 
-                    <input type="submit" value="Indsend">
+                    <input class="button-main" type="submit" value="Indsend">
 
                 </form>
             </div>
@@ -126,7 +134,7 @@
     <!-- /.container -->
 
     <!-- Footer -->
-    <footer class="py-5 bg-dark">
+    <footer class="py-5">
         <div class="container">
             <p class="m-0 text-center text-white">Copyright &copy; ProctorSolutions 2019</p>
         </div>
