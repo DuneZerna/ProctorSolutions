@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="img/ps-ikon.png"/>
+    <link rel="shortcut icon" href="img/ps-ikon.png" />
 
     <title>ProctorSolutions</title>
 
@@ -66,21 +66,17 @@
         <div class="desktop">
             <article>
                 <!-- left side start -->
-                <img style="width: 100%; top: 5em; padding-bottom: 15em;" src="img/banner2.png">
+                <img style="width: 100%; top: 5em; padding-bottom: 15em;" src="img/banner2.png" class="fade-scroll">
                 <div class="top-panel"></div>
-                <figure class="right-split">
+                <figure class="right-split fade-scroll" style="top: 100px">
                     <h2 class="heading">Den perfekte løsning til dig
                         <p class="text-center paragraf mb-3 mb-md-0">Vi skaber din hjemmeside fra bunden. Du er med fra start til slut, og vi er først færdig når du er tilfreds.<br><br> </p>
                         <hr>
                         <p class="text-center paragraf mb-3 mb-md-0">Tag kontakt til os i dag og få et uforpligtende tilbud.</p>
                     </h2>
                 </figure>
-                <img style="width:100%; height: auto;" src="img/placeholder1.png">
+                <img style="width:100%; height: auto;" src="img/placeholder1.png" >
                 <!--
-                <figure>
-                    <h2 style="margin: 100px 0 50px 0;" class="heading">Hvad siger kunderne om os?  </h2>
-                    <iframe width="80%" height="400px" src="https://www.youtube.com/embed/tOwjEOt1zYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </figure>
                 -->
                 <section style="display: none;">
                     <h2 class="heading">Innovation</h2>
@@ -90,35 +86,38 @@
                 </section>
                 <section class="left-split">
                     <h2 class="heading">Salgsafdeling</h2>
-                                            <div class="row">
-            <div class="col-md-5 text-center">
-                
-                <p>Kontakt os hvis du har spørgsmål vedr. vores produkter</p>
-                <form action="action_page.php">
+                    <div class="row">
+                        <div class="col-md-5 text-center">
 
-                    <label for="fname">Navn</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Dit navn.." required>
+                            <p>Kontakt os hvis du har spørgsmål vedr. vores produkter</p>
+                            <form action="email.php" method="post">
 
-                    <label for="fname">Virksomhed</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Dit navn..">
+                                <label for="fname">Navn</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Dit navn.." required>
 
-                    <label for="products">Produkt</label>
-                    <select id="products" name="products">
-                        <option value="grafik">Grafisk Design</option>
-                        <option value="apps">App-udvikling</option>
-                        <option value="websites">Dynamiske Webapplikationer</option>
-                    </select>
+                                <label for="cname">Virksomhed</label>
+                                <input type="text" id="cname" name="companyname" placeholder="Din virksomhed">
 
-                    <input class="button" type="submit" value="Indsend">
+                                <label for="email">Email</label>
+                                <input type="text" id="email" name="email" placeholder="Din email" required>
 
-                </form>
-            </div>
-        </div>
+                                <label for="products">Produkt</label>
+                                <select id="products" name="products">
+                                    <option value="grafik">Grafisk Design</option>
+                                    <option value="apps">App-udvikling</option>
+                                    <option value="websites">Dynamiske Webapplikationer</option>
+                                </select>
+
+                                <input class="button" type="submit" value="Indsend">
+
+                            </form>
+                        </div>
+                    </div>
                 </section>
             </article>
         </div>
 
-
+        <!-- MOBILE VIEW -->
         <div class="mobile">
             <!-- Page Heading -->
             <h1 class="my-4">ProctorSolutions
@@ -195,50 +194,19 @@
             <!-- /.row -->
 
             <hr>
-
-            <!-- Pagination -->
-            <!-- 
-        <ul class="pagination justify-content-center">
-            <li class="page-item">
-                <a class="page-link" href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                    <span class="sr-only">Previous</span>
-                </a>
-            </li>
-            <li class="page-item">
-                <a class="page-link" href="#">1</a>
-            </li>
-            <li class="page-item">
-                <a class="page-link" href="#">2</a>
-            </li>
-            <li class="page-item">
-                <a class="page-link" href="#">3</a>
-            </li>
-            <li class="page-item">
-                <a class="page-link" href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </li> 
-        </ul>
-        -->
         </div>
 
     </div>
     <!-- /.container -->
-
-    <!-- Footer -->
     <footer class="py-5">
         <div class="container">
             <p class="m-0 text-center text-white">Copyright &copy; ProctorSolutions 2019</p>
         </div>
         <!-- /.container -->
     </footer>
-
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/js/main.js"></script>
 
-</body>
-
-</html>
+</body></html>
