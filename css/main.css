@@ -20,13 +20,9 @@ body {
 
 .navbar-list-main {
   font-family: obvia, sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 300;
   font-style: normal;
-}
-
-.nav-link{
-  color: white;
 }
 
 /* NAVBAR SLUT */
