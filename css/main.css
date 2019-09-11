@@ -6,18 +6,6 @@
     display: inline-block;
 }
 
-.logo-main .logo-blur {
-    display: none;
-    position: absolute;
-    top: 14px;
-    left: 16px;
-    z-index: 99;
-}
-
-.logo-main:hover .logo-blur {
-    display: inline;
-}
-
 /* LOGO SLUT */
 
 /* BODY START */
@@ -27,11 +15,12 @@ body {
 
 /* NAVBAR START */
 .navbar-main {
-    background-color: rgba(129, 198, 232, 1);
+    background-color: #4584ae;
 }
 
 .navbar-list-main {
     font-family: obvia, sans-serif;
+    font-size: 17px;
     font-weight: 300;
     font-style: normal;
 }
@@ -101,7 +90,7 @@ p {
 
 /* FOOTER START */
 footer {
-    background-color: rgba(129, 198, 232, 1);
+    background-color: #4584ae;
 }
 
 /* FOOTER SLUT */
@@ -388,4 +377,3 @@ body, button, input {
     padding: 0;
   }
 }
-
