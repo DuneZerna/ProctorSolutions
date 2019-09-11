@@ -2,27 +2,31 @@
 
 /* LOGO START */
 .logo-main {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 /* LOGO SLUT */
 
 /* BODY START */
 body {
-    background-color: white;
+  background-color: white;
 }
 
 /* NAVBAR START */
 .navbar-main {
-    background-color: #4584ae;
+  background-color: #4584ae;
 }
 
 .navbar-list-main {
-    font-family: obvia, sans-serif;
-    font-size: 17px;
-    font-weight: 300;
-    font-style: normal;
+  font-family: obvia, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.nav-link{
+  color: white;
 }
 
 /* NAVBAR SLUT */
