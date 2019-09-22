@@ -112,7 +112,7 @@ form {
 }
 
 .top-panel::before {
-    top: -200px;
+    top: -175px;
     content: '╲╱';
     position: absolute;
     opacity: 0.7;
