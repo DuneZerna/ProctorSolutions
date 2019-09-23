@@ -6,6 +6,10 @@
   display: inline-block;
 }
 
+.frontpage-logo{
+    padding: 8% 20% 20% 20%;
+}
+
 /* LOGO SLUT */
 
 /* BODY START */
@@ -15,7 +19,7 @@ body {
 
 /* NAVBAR START */
 .navbar-main {
-  background-color: #4584ae;
+  background-color: rgba(255, 255, 255, 0.14);
 }
 
 .navbar-list-main {
