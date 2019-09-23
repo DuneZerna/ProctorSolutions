@@ -28,7 +28,7 @@ body {
     .desktop {
         display: none;
     }
-    
+
     .mv-button {
         display: flex;
     }
@@ -102,7 +102,7 @@ body {
     .mobile {
         display: none;
     }
-    
+
     .dv-button {
         display: flex;
     }
@@ -110,16 +110,76 @@ body {
     .mv-button {
         display: none;
     }
+    
+    /* Fly in animation. If bugs occur on different screen sizes. Move into min-width 700p */
+
+    .fly-in-text {
+        list-style: none;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .fly-in-text li {
+        display: inline-block;
+        margin-right: 0px;
+        font-family: Open Sans, Arial;
+        font-weight: 300;
+        font-size: 3em;
+        color: #000;
+        opacity: 1;
+        transition: all 2.5s ease;
+    }
+
+    .fly-in-text li:last-child {
+        margin-right: 0;
+    }
+
+    .fly-in-text.hidden li {
+        opacity: 0;
+    }
+
+    .fly-in-text.hidden li:nth-child(1) {
+        transform: translateX(-200px) translateY(-200px);
+    }
+
+    .fly-in-text.hidden li:nth-child(2) {
+        transform: translateX(20px) translateY(100px);
+    }
+
+    .fly-in-text.hidden li:nth-child(3) {
+        transform: translateX(-150px) translateY(-80px);
+    }
+
+    .fly-in-text.hidden li:nth-child(4) {
+        transform: translateX(10px) translateY(-200px);
+    }
+
+    .fly-in-text.hidden li:nth-child(5) {
+        transform: translateX(-300px) translateY(200px);
+    }
+
+    .fly-in-text.hidden li:nth-child(6) {
+        transform: translateX(20px) translateY(-20px);
+    }
+
+    .fly-in-text.hidden li:nth-child(7) {
+        transform: translateX(30px) translateY(200px);
+    }
 
     @media screen and (min-width: 700px) {
+
+        /* SCREEN SPLIT ON SECTION */
+
         body > article {
             display: flex;
             flex-wrap: wrap;
         }
 
         figure {
-            background: #fff;
-            /*width: calc(50% + 1px);*/ 
+            background: transparent;
+            /*width: calc(50% + 1px);*/
             height: 100vh;
             margin: 0 auto 10vh 0;
             position: sticky;
@@ -127,14 +187,7 @@ body {
             overflow: hidden;
 
         }
-        
-        .right-split {
-           /* box-shadow: 8px 8px 8px rgba(0, 0, 0, .4); */
-        }
-        
-        .left-split {
-            /* box-shadow: -8px 8px 8px rgba(0, 0, 0, .4); */
-        }
+
 
         figure::after {
             content: '';
@@ -148,9 +201,8 @@ body {
             outline: 1px solid #fff;
             */
             outline-offset: -5vmin;
-            backdrop-filter: grayscale(1);
             pointer-events: none;
-            
+
         }
 
         figure:nth-of-type(4n)::after {
@@ -159,7 +211,7 @@ body {
         }
 
         section {
-            background: #fff;
+            background: transparent;
             width: calc(50% + 1px);
             height: 100vh;
             margin: 0 0 10vh auto;
@@ -198,7 +250,7 @@ body {
         }
 
         section::before {
-            background: inherit;
+
             z-index: 1;
             content: '';
             position: absolute;
@@ -232,7 +284,6 @@ body {
             outline: 1px solid #fff;
             */
             outline-offset: -5vmin;
-            backdrop-filter: invert(1);
             pointer-events: none;
         }
 
