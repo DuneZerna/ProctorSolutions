@@ -110,7 +110,7 @@ body {
     .mv-button {
         display: none;
     }
-    
+
     /* Fly in animation. If bugs occur on different screen sizes. Move into min-width 700p */
 
     .fly-in-text {
@@ -135,6 +135,18 @@ body {
     .fly-in-text li:last-child {
         margin-right: 0;
     }
+
+    /*PS TEXT COLOR*/
+
+    .fly-in-text li:nth-child(-n+7) {
+        color: #07194c;
+    }
+
+    .fly-in-text li:nth-child(n+8) {
+        color: #243a99;
+    }
+
+    /*PS TEXT COLOR END*/
 
     .fly-in-text.hidden li {
         opacity: 0;
