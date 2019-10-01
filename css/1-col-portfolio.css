@@ -110,7 +110,7 @@ body {
     .mv-button {
         display: none;
     }
-    
+
     /* Fly in animation. If bugs occur on different screen sizes. Move into min-width 700p */
 
     .fly-in-text {
@@ -139,6 +139,7 @@ body {
     .fly-in-text.hidden li {
         opacity: 0;
     }
+
 
     .fly-in-text.hidden li:nth-child(1) {
         transform: translateX(-200px) translateY(-200px);
@@ -185,9 +186,7 @@ body {
             position: sticky;
             top: 0;
             overflow: hidden;
-
         }
-
 
         figure::after {
             content: '';

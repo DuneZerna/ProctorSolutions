@@ -1,16 +1,37 @@
-$(document).ready(function(){
-   
-    var introStringArray = ["P","R","O","C","T","O","R","S","O","L","U","T","I","O","N","S","?"];
-    
-    introStringArray.forEach(function(item) {
-       $(".intro_text").append("<li>" + item + "</li>")
+$(document).ready(function () {
+
+    var introStringArray = ["P", "R", "O", "C", "T", "O", "R", "S", "O", "L", "U", "T", "I", "O", "N", "S", "?"];
+
+
+    introStringArray.forEach(function (item) {
+        $(".intro_text").append("<li>" + item + "</li>")
     });
-    
+
+
+    $(".content").css("display", "none");
+    $("footer").css("display", "none");
+
+});
+
+
+$(function () {
+    var hoverOnce = false;
+    var introContent = $(".intro_text");
+    introContent.hover(function () {
+
+        if (hoverOnce == false) {
+            $(".content").css("display", "block");
+            $("footer").css("display", "block");
+            introContent.fadeOut();
+        }
+    });
+
 });
 
 // Fade when scrolling function
 
 $(function () {
+    var introContent = $(".intro_text");
     var documentEl = $(document),
         fadeElem = $('.fade-scroll');
 
@@ -25,7 +46,7 @@ $(function () {
                 $this.css('zIndex', '60');
                 setTimeout(function () {
                     $('.fly-in-text').removeClass('hidden');
-                }, 500);
+                }, 1000);
             }
 
 
@@ -49,4 +70,3 @@ $(function () {
         });
     });
 });
-
