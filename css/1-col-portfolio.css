@@ -169,6 +169,19 @@ body {
         transform: translateX(30px) translateY(200px);
     }
 
+    /*PS TEXT COLOR*/
+
+    .fly-in-text li:nth-child(-n+7) {
+        color: #07194c;
+    }
+
+    .fly-in-text li:nth-child(n+8) {
+        color: #243a99;
+    }
+
+    /*PS TEXT COLOR END*/
+
+
     @media screen and (min-width: 700px) {
 
         /* SCREEN SPLIT ON SECTION */
