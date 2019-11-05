@@ -116,7 +116,7 @@ form {
 }
 
 .top-panel::before {
-    top: -175px;
+    top: -75px;
     content: '╲╱';
     position: absolute;
     opacity: 0.7;
@@ -131,6 +131,7 @@ form {
     left: 50%;
     margin-left: -30px;
     animation: bounce 1s ease infinite;
+    margin-top: x%;
 }
 
 @keyframes bounce {

@@ -169,6 +169,22 @@ body {
         transform: translateX(30px) translateY(200px);
     }
 
+    .fly-in-text.hidden li:nth-child(8) {
+        transform: translateX(40px) translateY(100px);
+    }
+
+    .fly-in-text.hidden li:nth-child(9) {
+        transform: translateX(-40px) translateY(-100px);
+    }
+
+    .fly-in-text.hidden li:nth-child(10) {
+        transform: translateX(80px) translateY(280px);
+    }
+
+    .fly-in-text.hidden li:nth-child(11) {
+        transform: translateX(-80px) translateY(-280px);
+    }
+
     /*PS TEXT COLOR*/
 
     .fly-in-text li:nth-child(-n+7) {

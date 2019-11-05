@@ -1,29 +1,51 @@
 $(document).ready(function () {
 
     var introStringArray = ["P", "R", "O", "C", "T", "O", "R", "S", "O", "L", "U", "T", "I", "O", "N", "S", "?"];
+    var pStringArray = ["Vi", "&nbsp", "laver", "&nbsp", "unikke", "&nbsp","fortællende", "&nbsp","hjemmesider", "&nbsp","med", "&nbsp","et","&nbsp", "twist", "<br>", "Følg pilen"];
+    
+    var dZerna = ["Dune", "Zerna"];
+    var jAbdulkarim = ["Jamila", "Abdulkarim"];
 
 
     introStringArray.forEach(function (item) {
-        $(".intro_text").append("<li>" + item + "</li>")
+        $(".intro_text").append("<li>" + item + "</li>");
+    });
+    
+    pStringArray.forEach(function (item){
+        $(".p_text").append("<li>" + item + "</li>");
+    });
+    
+    dZerna.forEach(function (item){
+        $(".part1").append("<li>" + item + "</li>");
+    });
+    
+    jAbdulkarim.forEach(function (item){
+        $(".part2").append("<li>" + item + "</li>");
     });
 
 
     $(".content").css("display", "none");
     $("footer").css("display", "none");
+    
 
-});
 
+
+});    
 
 $(function () {
     var hoverOnce = false;
-    var introContent = $(".intro_text");
+    var introContent = $(".p_text");
     introContent.hover(function () {
 
         if (hoverOnce == false) {
             $(".content").css("display", "block");
             $("footer").css("display", "block");
             introContent.fadeOut();
+            $(".intro_text").fadeOut();
+            
+            
         }
+
     });
 
 });
