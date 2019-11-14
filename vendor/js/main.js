@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
-    var introStringArray = ["P", "R", "O", "C", "T", "O", "R", "S", "O", "L", "U", "T", "I", "O", "N", "S", "?"];
-    var pStringArray = ["Vi", "&nbsp", "laver", "&nbsp", "unikke", "&nbsp","fortællende", "&nbsp","hjemmesider", "&nbsp","med", "&nbsp","et","&nbsp", "twist", "<br>", "Følg pilen"];
+    var introStringArray = ["H", "V", "E", "M", "&nbsp", "E", "R", "&nbsp", "V", "I", "?"];
+    var pStringArray = ["Vi", "&nbsp", "laver", "&nbsp", "unikke", "&nbsp","fortællende", "&nbsp","hjemmesider", "&nbsp","med", "&nbsp","et","&nbsp", "twist", "<br>", "Følg pilen for at gå videre"];
     
     var dZerna = ["Dune", "Zerna"];
     var jAbdulkarim = ["Jamila", "Abdulkarim"];
@@ -40,6 +40,7 @@ $(function () {
         if (hoverOnce == false) {
             $(".content").css("display", "block");
             $("footer").css("display", "block");
+            $(".content").fadeIn();
             introContent.fadeOut();
             $(".intro_text").fadeOut();
             
